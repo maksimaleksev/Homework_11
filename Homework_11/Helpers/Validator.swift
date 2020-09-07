@@ -40,6 +40,7 @@ class Validator {
         
     }
     
+    //Check email
     func isValidEmail(_ email: String?) -> Bool {
         guard let email = email else { return false }
         let emailRegEx = "^.+@.+\\..{2,}$"
